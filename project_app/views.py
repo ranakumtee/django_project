@@ -549,3 +549,11 @@ def check_detail(request):
     else :
         return redirect('/login')
 
+def Request1_owner(request):
+    return render(request, 'Request1_owner.html')
+
+def Request_value(request):
+    return render(request, 'Request_value.html')
+
+def Request_list(request):
+    return render(request, 'Request_list.html')
